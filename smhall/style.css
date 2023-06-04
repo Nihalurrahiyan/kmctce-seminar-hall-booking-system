@@ -1,0 +1,84 @@
+   body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #165EC5;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .header-text {
+      font-size: 24px;
+      font-weight: 500;
+      font-family: sans-serif;
+      color: #ffffff;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-left: 1890px;
+      padding: 10px;
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .nav-item {
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    .nav-item:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      height: 300px;
+    }
+
+    .about {
+      text-align: center;
+      font-size: 24px;
+      width: 1200px;
+    }
+
+    .caption {
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .image-container {
+      margin: 10px;
+    }
+
+    .image-container img {
+      width: 400px; /* Specify the desired width */
+      height: auto; /* The height will adjust proportionally */
+    }
+    footer {
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      background-color: #6e9cde;
+      border-radius: 0 0 10px 10px;
+      position: fixed;
+      bottom: 0;
+      color: #ffffff;
+    }
+    .home{
+        padding-top: 25px;
+    }
